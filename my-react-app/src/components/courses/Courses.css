@@ -1,0 +1,107 @@
+/* courses.css */
+
+#courses {
+    padding-top: 30px;
+    background-color: #f8f9fa; /* Subtle background color */
+}
+
+.courseHeading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.btn {
+    border-radius: 25px;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.course_card {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 10px;
+    padding: 20px; /* Add padding to the course cards */
+    border-radius: 15px;
+    background-color: white; /* Card background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+.allCourses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; /* Adjusted margin */
+}
+
+.allCourses p {
+    background: #007bff;
+    border-radius: 50px;
+    font-size: 25px;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 15px 25px; /* Increase padding for better appearance */
+    color: white;
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make it inline block for padding to work properly */
+}
+
+.allCourses p:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+#courses h2 {
+    padding: 50px;
+    text-align: center; /* Center align the heading */
+}
+
+@media (max-width: 940px) {
+    .course_card {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 570px) {
+    .course_card {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 740px) {
+    .course_card {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px; /* Add padding to the course cards */
+        margin: 20px;
+        border-radius: 15px;
+        background-color: white; /* Card background color */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.course_card .card {
+    transition: transform 0.3s ease; 
+}
+
+.course_card .card:hover {
+    transform: scale(1.1); 
+}

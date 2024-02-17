@@ -1,0 +1,12 @@
+body{
+    font-family: "Fredoka", sans-serif !important;
+}
+.faq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+strong{
+    cursor: pointer;
+}
+

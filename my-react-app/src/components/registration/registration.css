@@ -1,0 +1,104 @@
+/* Registrations.css
+
+#register {
+    padding: 30px 0;
+  }
+  
+  .card {
+    border: none;
+  }
+  
+  .card-title {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #fff;
+  }
+  
+  .btn-light {
+    background-color: #000;
+    color: #fff;
+    border: none;
+  }
+  
+  .btn-light:hover {
+    background-color: #333;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .modal-title {
+    color: #0066cc;
+  }
+  
+  .modal-footer {
+    background-color: #f5f5f5;
+  }
+  
+  .form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .btn-secondary,
+  .btn-primary {
+    border: none;
+  }
+  
+  .btn-primary {
+    background-color: #000 !important; 
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #333 !important;
+  }
+   */
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+/* Style for the modal */
+.modal-content {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style for the close button in the modal */
+.modal-header button {
+  color: #fff;
+}
+
+/* Style for the form within the modal */
+.modal-body input,
+.modal-body textarea {
+  background-color: #555;
+  color: #fff;
+  border: 1px solid #777;
+}
+
+/* ... other styles ...
